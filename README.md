@@ -1,12 +1,10 @@
 # Swagger MCP | OpenAPI/Swagger MCP Tool
 
-
 ---
 
+An OpenAPI/Swagger document mcp tool built on [FastMCP](https://gofastmcp.com), providing clean and efficient document querying and analysis capabilities.
 
-An OpenAPI/Swagger document analysis tool built on [FastMCP](https://gofastmcp.com), providing clean and efficient document querying and analysis capabilities.
-
-基于 [FastMCP](https://gofastmcp.com) 构建的 OpenAPI/Swagger 文档分析工具，提供简洁高效的文档查询和分析功能。
+基于 [FastMCP](https://gofastmcp.com) 构建的 OpenAPI/Swagger MCP server, 更好更准确的编写前端代码和调用接口。
 
 ### 🚀 Quick Start | 快速开始
 
