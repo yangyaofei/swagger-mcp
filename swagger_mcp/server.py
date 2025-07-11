@@ -5,6 +5,7 @@ Built with FastMCP following the official quickstart guide
 """
 
 from typing import Dict, Any, Optional
+
 from fastmcp import FastMCP
 
 # 导入解析器（已包含环境变量自动加载）
@@ -317,8 +318,3 @@ def get_schema_details(name: str) -> Dict[str, Any]:
             "example": schema.example
         }
     }
-
-
-if __name__ == "__main__":
-    # 使用 FastMCP 的标准运行方式
-    mcp.run() 

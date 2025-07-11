@@ -4,16 +4,16 @@ Supports OpenAPI 3.0 and Swagger 2.0 specifications
 """
 
 import json
-import yaml
-import requests
 import os
-from typing import Dict, List, Optional, Any, Union
 from pathlib import Path
-from urllib.parse import urlparse
+from typing import Dict, List, Optional, Any
+
+import requests
+import yaml
 from openapi_spec_validator.readers import read_from_filename
 
 from swagger_mcp.models import (
-    SwaggerDocument, SwaggerInfo, ApiEndpoint, Schema, 
+    SwaggerDocument, SwaggerInfo, ApiEndpoint, Schema,
     Parameter, Response, SchemaProperty
 )
 
